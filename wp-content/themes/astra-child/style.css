@@ -1,0 +1,204 @@
+/**
+Theme Name: BRIX Agency | Theme
+Author: BRIX Agency
+Author URI: https://brixagency.com/
+Description: BRIX Agency Theme is a powerful and versatile theme based on the popular Astra Pro Theme.
+Version: 1.0.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: brix-agency-theme
+Template: astra
+*/
+
+
+
+/*-----------------
+ #HEADER
+-----------------*/
+
+.elementor-nav-menu--indicator-classic .elementor-nav-menu .sub-arrow i::before {
+	content: url('http://oceanx.brixagencydev.com/wp-content/uploads/2020/02/arrow-submenu.svg')
+
+}
+
+
+.toggle-resources .elementor-menu-toggle {
+    margin: 0 !important;
+    width: 24px;
+    height: 24px
+    
+}
+
+.toggle-resources .elementor-widget-container {
+    width: 24px;
+    height: 24px;
+    
+}
+
+
+.toggle-resources .elementor-nav-menu--dropdown a {
+    justify-content: center;
+    
+}
+
+.toggle-resources .elementor-nav-menu--dropdown {
+    top: 26px !important;
+    width: 300px !important;
+    left: calc(100% - 220px) !important;
+    box-shadow: 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 100px 80px rgba(0, 0, 0, 0.07);
+    
+}
+
+.toggle-resources .elementor-nav-menu--dropdown ul {
+    padding: 24px 12px 12px 12px;
+}
+
+
+.toggle-resources .elementor-nav-menu--dropdown ul li a {
+    font-weight: 500 !important;
+}
+
+.dropdown-mobile .elementor-nav-menu--dropdown ul li a{
+	 font-weight: 500 !important;
+	
+}
+
+/*Hero List*/
+
+.list-hero {
+	margin: 18px 0 0 0;
+    text-align: left;
+    display: flex;
+    padding: 0;
+	
+}
+
+.list-hero .column {
+	padding: 18px;
+	
+}
+
+
+/*Background Slides*/
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+	bottom: -15px;
+}
+
+
+
+.swiper-slide-image {
+	width: 50%;
+	
+}
+
+.link-white {
+	color: white;
+}
+
+.link-white:hover {
+	color: white;
+}
+
+.link-white:focus {
+	color: #fff;
+}
+
+
+
+/*Media Queries*/
+
+@media screen and (min-width: 1211px){
+    .header-mobile {
+        display: none;
+    
+}
+    
+}
+
+
+@media screen and (min-width: 1301px){
+    .hero-mobile {
+        display: none;
+}
+
+    
+}
+
+@media screen and (max-width: 1210px){
+    .header-desktop {
+        display: none;
+    
+}
+
+    
+}
+
+
+@media (max-width: 1024px) {
+	
+.list-hero {
+
+    text-align: center;
+	flex-direction: column;
+	list-style: none;
+	
+}
+	
+ .list-hero .column {
+	padding: 0px;
+	
+}
+	
+}
+
+
+@media screen and (max-width: 1300px){
+.hero-desktop{
+        display: none;   
+}
+	.elementor-slides .swiper-slide-bg {
+			
+			background-position: 0% 50%;
+    
+}
+    
+}
+
+.title-yellow {
+	color: #F2DC4F;
+	
+}
+
+@media screen and (max-width: 1456px) {
+	
+	.hero-sub-text div, .hero-sub-text p {
+		font-size: 18px !important;
+		line-height: 1.2em;
+	} 
+}
+
+@media screen and (max-width: 1180px) {
+	.hero-button span {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 529px){
+.elementor-23 .elementor-element.elementor-element-5cff31f .swiper-slide {
+    height: 50vh !important;
+}
+	
+	.elementor-23 .elementor-element.elementor-element-594530f {
+		 margin-top: -30px;
+		margin-bottom: 0px;
+		z-index: 4;
+	}
+    
+}
+
+@media (max-width: 375px){
+.elementor-23 .elementor-element.elementor-element-5cff31f .swiper-slide {
+    height: 46vh !important;
+}
+    
+}

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="35" height="40" viewBox="0 0 35 40">
+  <defs>
+    <clipPath id="clip-tringle-item">
+      <rect width="35" height="40"/>
+    </clipPath>
+  </defs>
+  <g id="tringle-item" clip-path="url(#clip-tringle-item)">
+    <path id="Polygon_9" data-name="Polygon 9" d="M19.5,0,39,34H0Z" transform="translate(0.5 39.5) rotate(-90)" fill="#37c3f2"/>
+  </g>
+</svg>

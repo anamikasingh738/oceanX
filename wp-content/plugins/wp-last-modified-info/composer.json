@@ -1,0 +1,27 @@
+{
+    "name": "iamsayan/wp-last-modified-info",
+    "description": "Adds last modified date and time automatically on pages and posts very easily. It is possible to use shortcodes to display last modified info anywhere on a WordPress site running 4.7 and beyond.",
+    "type": "wordpress-plugin",
+    "license": "GPL-3.0",
+    "authors": [
+        {
+            "name": "Sayan Datta",
+            "email": "hello@sayandatta.in",
+            "homepage": "http://sayandatta.in",
+            "role": "Developer"
+        }
+    ],
+    "support": {
+        "email": "hello@sayandatta.in"
+    },
+    "funding": [
+        {
+            "type": "Paypal",
+            "url": "https://paypal.me/iamsayan"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {"Wplmi\\": "./inc"}
+    }
+}
